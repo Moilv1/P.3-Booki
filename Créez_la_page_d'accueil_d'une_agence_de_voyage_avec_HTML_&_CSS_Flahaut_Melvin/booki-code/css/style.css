@@ -69,23 +69,14 @@ a {
 /*** Nav ***/
 .nav {
     display: flex;
+    flex-direction: row ;
+    gap: 3rem;
 }
-#btn_hebergements {
-    margin-right:50px ;
-    color: black;
-    padding-top: 10px;
-}
-#btn_hebergements:hover {
-    border-top: solid #0065FC;
-    border-width:2px;
-    color: #0065FC;
-
-}
-#btn_activites {
+.nav_btn {
     color: black;;
     padding-top: 10px;
 }
-#btn_activites:hover {
+.nav_btn:hover {
     border-top: solid #0065FC;
     border-width: 2px;
     color: #0065FC;
