@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -70,7 +71,7 @@ a {
 .nav {
     display: flex;
     flex-direction: row ;
-    gap: 3rem;
+    gap: 4rem;
 }
 .nav_btn {
     color: black;;
@@ -464,25 +465,7 @@ footer {
         font-weight: 700;
         line-height: normal;
     }
-    #économique {
-        height: 30px;
-        font-size: 12px;
-    }
     
-    #familial{
-        height: 30px;
-        font-size: 12px;
-    }
-    
-    #romantique{
-        height: 30px;
-        font-size: 12px;
-       
-    }
-    #pépites {
-        height: 30px;
-        font-size: 12px;
-    }
     .propos h3, .elt-footer {
         font-size: small;
     }
@@ -527,8 +510,20 @@ footer {
         flex-wrap: wrap-reverse;
     }
     nav {
-        justify-content: center;
         width: 100%;
+        gap: 0px !important;
+    }
+    .nav_btn{
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
+    }
+    .nav_btn:hover{
+        border-top: none;
+        border-bottom: solid #0065FC;
+        border-width: 2px;
+        color: #0065FC;
     }
     #btn_hebergements {
         width: 100%;
@@ -572,6 +567,7 @@ footer {
         margin-right: auto;
     }
     .line button {
+        font-size: 14px;
         width: 50%;
         text-align: center;
     }
@@ -603,6 +599,9 @@ footer {
     }
     .article-hébergement p {
         font-size: small;
+    }
+    .populaires {
+        border-radius: 0px !important;
     }
     .populaires-cards .card {
         display: flex;
